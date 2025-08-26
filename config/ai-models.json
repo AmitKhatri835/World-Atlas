@@ -1,0 +1,15 @@
+{
+    "defaultModel": "claude-sonnet-3.5",
+    "enabledModels": {
+        "claude-sonnet-3.5": {
+            "enabled": true,
+            "availableToAllClients": true,
+            "maxTokens": 4096,
+            "temperature": 0.7
+        }
+    },
+    "globalSettings": {
+        "enableNewModelsByDefault": false,
+        "requireAuthentication": true
+    }
+}
