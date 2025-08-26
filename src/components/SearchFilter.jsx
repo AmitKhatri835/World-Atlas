@@ -30,44 +30,44 @@ const SearchFilter = ({
     setCountries(sorted);
   };
   return (
-    <div className="w-[50%] sm:w-[85%] md:w-[80%] m-auto my-12">
-      <div className="w-full lg:flex justify-between lg:justify-center items-center">
-        <div className="w-[30%] sm:w-[100%] lg:w-[30%]">
-        <input
-          className="bg-gray-800 border sm:w-[100%] border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white placeholder-gray-400"
-          type="text"
-          placeholder="Search for a country..."
-          value={search}
-          onChange={handleInputChange}
-        />
+    <div className="m-auto w-[90%] xs:w-[85%] md:w-[80%] my-12">
+      <div className="w-full md:flex justify-between items-center">
+        <div className="w-[100%] xs:w-[100%] sm:w-[100%] md:w-[80%] lg:w-[30%]">
+          <input
+            className="bg-gray-800 border w-[100%] xs:w-[100%] sm:w-[100%] border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white placeholder-gray-400"
+            type="text"
+            placeholder="Search for a country..."
+            value={search}
+            onChange={handleInputChange}
+          />
         </div>
-        <div className="lg:w-[40%] flex justify-between items-center my-4 mx-3">
-        <button
-          onClick={() => sortCountries("asc")}
-          className="cursor-pointer bg-gray-800 border border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white"
-        >
-          Asc
-        </button>
-        <button
-          onClick={() => sortCountries("desc")}
-          className="cursor-pointer bg-gray-800 border border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white"
-        >
-          Desc
-        </button>
+        <div className="md:w-[80%] lg:w-[40%] flex justify-between items-center my-4 mx-3">
+          <button
+            onClick={() => sortCountries("asc")}
+            className="cursor-pointer bg-gray-800 border border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white"
+          >
+            Asc
+          </button>
+          <button
+            onClick={() => sortCountries("desc")}
+            className="cursor-pointer bg-gray-800 border border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white"
+          >
+            Desc
+          </button>
         </div>
-        <div className="w25%] sm:w-[100%] lg:w-[25%]">
-        <select
-          value={filter}
-          onChange={handleSelectChange}
-          className="bg-gray-800 border sm:w-[100%] border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white cursor-pointer"
-        >
-          <option value="all">Filter by Region</option>
-          <option value="africa">Africa</option>
-          <option value="asia">Asia</option>
-          <option value="americas">Americas</option>
-          <option value="europe">Europe</option>
-          <option value="oceania">Oceania</option>
-        </select>
+        <div className="w-[100%] sm:w-[100%] md:w-[80%] lg:w-[25%]">
+          <select
+            value={filter}
+            onChange={handleSelectChange}
+            className="bg-gray-800 border w-[100%] xs:w-[100%] md:[100%] border-gray-700 rounded-lg px-6 py-3 focus:outline-none focus:border-amber-500 transition-colors text-white cursor-pointer"
+          >
+            <option value="all">Filter by Region</option>
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="americas">Americas</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="w-full my-[50px] h-full">
-      <div className="w-[40%] sm:w-[85%] md:w-[70%] m-auto h-full">
+      <div className="w-[80%] xs:w-[85%] md:w-[70%] m-auto h-full">
         <h1 className="text-center text-3xl font-bold text-white">
           Here are the Intresting Facts
           <br />
@@ -16,7 +16,7 @@ const About = () => {
               value;
             return (
               <div
-                className="card w-[100%] sm:w-[40%] md:w-[40%] cursor-pointer border px-4 py-2 border-gray-700 bg-gradient-to-br from-gray-900 via-black to-gray-900 rounded-[20px] transition-all"
+                className="card w-[80%] sm:w-[45%] md:w-[40%] cursor-pointer border px-4 py-2 border-gray-700 bg-gradient-to-br from-gray-900 via-black to-gray-900 rounded-[20px] transition-all"
                 key={id}
               >
                 <div className="">

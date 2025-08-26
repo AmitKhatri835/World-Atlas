@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="w-full bg-[#0f0f0f] ">
         <div className="w-[90%] sm:w-[85%] md:w-[70%] m-auto">
-          <div className="py-[10px] flex justify-between sm:justify-evenly items-center">
+          <div className="py-[10px] text-center flex flex-col xs:flex-row justify-between sm:justify-evenly items-center">
             <div className="flex justify-evenly items-center">
               <span className="text-blue-500 text-2xl sm:text-4xl px-2">
                 <FaLocationDot />
@@ -17,11 +17,11 @@ const Footer = () => {
               <div className="">
                 <p className="">Find Us</p>
                 <p className="text-[12px] text-gray-500">
-                  123 Main Street, Springfield, USA
+                  Jodhpur, Rajasthan, India
                 </p>
               </div>
             </div>
-            <div className="flex justify-evenly items-center">
+            <div className="my-3 flex justify-evenly items-center">
               <span className="text-blue-500 text-2xl sm:text-4xl px-2">
                 <IoCall />
               </span>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full bg-[#202020]">
-        <div className="w-[40%] sm:w-[85%] md:w-[70%] m-auto py-[15px] sm:flex justify-evenly items-center">
+        <div className="w-[90%] sm:w-[85%] md:w-[70%] m-auto py-[15px] sm:flex justify-evenly items-center">
           <div className="sm:w-[40%] flex justify-center">
             <span className="text-[12px] text-center text-gray-600">CopyRight © 2024 World Atlas. All Rights Reserved</span>
           </div>

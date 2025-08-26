@@ -50,7 +50,7 @@ const Country = () => {
     );
 
   return (
-    <div className="w-[40%] sm:w-[85%] md:[70%] m-auto my-16">
+    <div className="w-[100%] xs:w-[85%] md:[70%] m-auto my-16">
       <SearchFilter
         search={search}
         setSearch={setSearch}

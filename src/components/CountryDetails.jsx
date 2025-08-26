@@ -36,7 +36,7 @@ const CountryDetails = () => {
                   alt={country.flags.alt}
                 />
               </div>
-              <div className="">
+              <div className="text-center xs:text-left px-5">
                 <h1 className="mt-3 text-3xl">{country.name.official}</h1>
                 <p className="text-[12px] mt-3">
                   <span className="text-[14px] pe-1 text-gray-500">

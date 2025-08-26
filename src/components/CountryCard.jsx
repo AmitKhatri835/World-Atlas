@@ -5,7 +5,7 @@ const CountryCard = ({ country }) => {
   const { flags, name, population, region, capital } = country;
   return (
     <>
-      <li>
+      <li className="">
         <div className="cursor-pointer border p-[20px] my-4 border-gray-700 bg-gradient-to-br from-gray-900 via-black to-gray-900 rounded-[20px] transition-all">
           <img
             className="max-w-[200px] max-h-[150px]"
